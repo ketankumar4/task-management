@@ -1,0 +1,4 @@
+<h2>Task Reminder</h2>
+<p>Dear <%= @task.user.name %>,</p>
+<p>This is a reminder that your task "<%= @task.title %>" is due on <%= @task.deadline.strftime("%B %e, %Y") %>!</p>
+<p>Please ensure it is completed by then.</p>
